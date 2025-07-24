@@ -50,18 +50,18 @@ A single-page version to demonstrate API integration.
 A multi-task entry page for managing multiple tasks at once.
 
 API Endpoints
-GET /api/tasks – Retrieve tasks.
+GET /php-api/api/index.php – Retrieve tasks.
 
-POST /api/tasks – Create a new task.
+POST php-api/api/index.php – Create a new task.
 
-PUT /api/tasks/{id} – Update a task.
+PUT  php-api/api/index.php– Update a task.
 
-DELETE /api/tasks/{id} – Delete a task.
+DELETE php-api/api/index.php – Delete a task.
 
 All endpoints are demonstrated using Postman.
 
-Docker
-A Dockerfile is included, but functionality is untested as Docker is not installed on the development machine.
+Ajax only this is a single file controller and is selected on a hidden form field
+
 
 Notes
 This project is intended as a demo of basic CRUD API use.
