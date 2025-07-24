@@ -4,7 +4,7 @@ This project demonstrates a practical use of a CRUD API using Postman and a simp
 
 Database Setup   
 
-C
+
 Create a database named hmtcs  and import to *.sql file
 id (Primary Key)
 
