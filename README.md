@@ -1,69 +1,68 @@
-Task Management CRUD API Demo
-Overview
-This project demonstrates a practical use of a CRUD API using Postman and a simple web-based frontend. It simulates a basic task management system with operations to Create, Read, Update, and Delete tasks.
+# CodeIgniter 4 Application Starter
 
-Database Setup   
+## What is CodeIgniter?
 
+CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
+More information can be found at the [official site](https://codeigniter.com).
 
-Create a database named hmtcs  and import to *.sql file
-id (Primary Key)
+This repository holds a composer-installable app starter.
+It has been built from the
+[development repository](https://github.com/codeigniter4/CodeIgniter4).
 
-title
+More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
 
-description
+You can read the [user guide](https://codeigniter.com/user_guide/)
+corresponding to the latest version of the framework.
 
-status
+## Installation & updates
 
-due_date
+`composer create-project codeigniter4/appstarter` then `composer update` whenever
+there is a new release of the framework.
 
-created_by
+When updating, check the release notes to see if there are any changes you might need to apply
+to your `app` folder. The affected files can be copied or merged from
+`vendor/codeigniter4/framework/app`.
 
-created_at
+## Setup
 
-Note: created_at should automatically store the date and time a task is created.
+Copy `env` to `.env` and tailor for your app, specifically the baseURL
+and any database settings.
 
-API Functionality
-The API uses standard HTTP methods:
+## Important Change with index.php
 
-GET – Fetch all tasks (excluding overdue tasks).
+`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
+for better security and separation of components.
 
-POST – Create a new task.
+This means that you should configure your web server to "point" to your project's *public* folder, and
+not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
+framework are exposed.
 
-PUT – Update an existing task.
+**Please** read the user guide for a better explanation of how CI4 works!
 
-DELETE – Remove a task.
+## Repository Management
 
-Frontend
-The frontend is built using Bootstrap and jQuery with a clean, simple layout. It includes:
+We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
+We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
+FEATURE REQUESTS.
 
-A DataTables-powered view to display tasks in a searchable and sortable table.
+This repository is a "distribution" one, built by our release preparation script.
+Problems with it can be raised on our forum, or as issues in the main repository.
 
-A form above the table (rather than a modal) for creating and editing tasks.
+## Server Requirements
 
-Note: You may need to scroll up to see the form when editing.
+PHP version 8.1 or higher is required, with the following extensions installed:
 
-Tasks that are overdue will not be displayed. Tasks nearing their due date will be highlighted in a panel for visibility.
+- [intl](http://php.net/manual/en/intl.requirements.php)
+- [mbstring](http://php.net/manual/en/mbstring.installation.php)
 
-Pages Included
-A single-page version to demonstrate API integration.
+> [!WARNING]
+> - The end of life date for PHP 7.4 was November 28, 2022.
+> - The end of life date for PHP 8.0 was November 26, 2023.
+> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
+> - The end of life date for PHP 8.1 will be December 31, 2025.
 
-A multi-task entry page for managing multiple tasks at once.
+Additionally, make sure that the following extensions are enabled in your PHP:
 
-API Endpoints
-GET /php-api/api/index.php – Retrieve tasks.
-
-POST php-api/api/index.php – Create a new task.
-
-PUT  php-api/api/index.php– Update a task.
-
-DELETE php-api/api/index.php – Delete a task.
-
-All endpoints are demonstrated using Postman.
-
-Ajax only this is a single file controller and is selected on a hidden form field
-
-
-Notes
-This project is intended as a demo of basic CRUD API use.
-
-The interface is simple, but functional for evaluation and development purposes.
+- json (enabled by default - don't turn it off)
+- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
+- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
