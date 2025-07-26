@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="assets/css/datatables.min.css">
+  <link rel="stylesheet" href="http://localhost/HMCTS/public/assets/css/datatables.min.css">
   
   
-	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="http://localhost/HMCTS/public/assets/css/main.css">
 	
 </head>
 <body>
@@ -28,7 +28,7 @@
 						  <a class="nav-link active" aria-current="page" href="#">Home</a>
 						</li>
 						<li class="nav-item">
-						  <a class="nav-link" href="#">Page 1</a>
+						  <a class="nav-link" href="<?php echo base_url()?>index.php/bulkAdd">Add multiple tasks</a>
 						</li>
 						<li class="nav-item">
 						  <a class="nav-link" href="#">Page 2</a>

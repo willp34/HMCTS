@@ -8,7 +8,7 @@
 	
 	<h3>HMCTS case management system</h3>
 	 
-	 <button class="btn btn-primary" id="show-tasks" >Add Tasck</button>
+	 <button class="btn btn-primary" id="show-tasks" >Add Task</button>
 	 <div class="row">
 	 <div id="task-display">
 	 
@@ -36,7 +36,7 @@
 									
 									 <label for="date" class="col-1 col-form-label">Date of Completion:</label>
 										<div class="col">
-										  <div class="input-group date" id="datepicker">
+										  <div class="input-group date datepicker">
 											<input type="text" class="form-control" name="completion" id="completion" placeholder="Date Completion" />
 											<span class="input-group-append">
 											  <span class="input-group-text bg-light d-block">

@@ -3,7 +3,7 @@ jQuery(document).ready(function () {
 	
 	
 	
-	handleAjaxRequest("GET", "index.php/api/upcoming_tasks", null, true, function (response) {
+	/*handleAjaxRequest("GET", "index.php/api/upcoming_tasks", null, true, function (response) {
 		
 		
 		let upcoming_tasks = response.tasks;
@@ -28,10 +28,10 @@ jQuery(document).ready(function () {
               
         });
 	
-	
+	*/
 	
 	jQuery(function() {
-        jQuery('#datepicker').datepicker();
+        jQuery('.datepicker').datepicker();
     });
     // Initialize DataTable
     new DataTable("#hmct_data_table", {
@@ -68,8 +68,46 @@ jQuery(document).ready(function () {
         dom: 'Bfrtip',
         buttons: ['edit']
     });
+let newRowIndex = 10000; // Start with high number to avoid ID conflicts
+     jQuery("#addRow").click(function(){
+		 
+		 const tableBody = document.querySelector('#bulk_table tbody');
+		const newRow = document.createElement('tr');
 
-    
+		  newRow.innerHTML = `
+			<tr>
+						<td></td>
+						<td><input class="form-control" type="text" name="rows[new_${newRowIndex}]['title']" id= "title" required   ></td>
+						<td><textarea class="form-control" rows="5" name="rows[new_${newRowIndex}]['description']" id="description" required ></textarea></td>
+						<td><select class="form-control" name="status" id="rows[new_${newRowIndex}]['status']">
+										<option value="To Do" selected>To Do</option>
+										<option  value="In Progress">In progress</option>
+									  </select></td>
+						<td>
+						
+						  <div class="input-group date datepicker">
+											<input type="text" class="form-control" name="rows[new_${newRowIndex}]['completion']" id="completion" placeholder="Date Completion" />
+											<span class="input-group-append">
+											  <span class="input-group-text bg-light d-block">
+												<i class="fa fa-calendar"></i>
+											  </span>
+											</span>
+										  </div></td>
+										  <td><button type="button" class="btn btn-danger removeRow">Remove</button></td>
+					</tr>		  `;
+
+		  tableBody.appendChild(newRow);
+		  newRowIndex++;
+});
+
+
+// Remove row on button click
+document.addEventListener('click', function (e) {
+  if (e.target && e.target.classList.contains('removeRow')) {
+    e.target.closest('tr').remove();
+  }
+});
+
 
   jQuery("#show-tasks").click(function(){
 	
@@ -112,11 +150,21 @@ jQuery(document).ready(function () {
 			e.preventDefault();
 			 let taskId = jQuery(' .modal-body #taskID').val(); // ✅ GET ROW ID HERE
 			//const formData = new FormData();
-		
-			const formData = jQuery(this).serialize();
+			const form = jQuery(this);
+			const formDataArray = form.serializeArray(); // [{name: 'title', value: 'Task'}, ...]
+				const formData = {};
+
+				jQuery.each(formDataArray, function(_, field) {
+					formData[field.name] = field.value;
+				});
+			
+			
+			
+			
+			
 			console.log("Data "+formData);
-			const actionUrl = jQuery(this).attr("action");
-			handleAjaxRequest("POST", actionUrl, formData, false, function (response) {
+			const actionUrl = jQuery(this).attr("action")+"/"+taskId;
+			handleAjaxRequest("PUT", actionUrl, formData, false, function (response) {
 					   
 			const resultsContainer = jQuery(" #dialog");
 			resultsContainer.html("");
@@ -273,7 +321,13 @@ jQuery(document).ready(function () {
             dataType: "json",
             success: successCallback,
             error: function (xhr, status, error) {
-                console.error('Error ',xhr.status ,' : ',status,' ' );
+				
+				const resultsContainer = jQuery(" #dialog");
+			resultsContainer.html("");
+			   const errorContent = `<div class="alert alert-danger">Error ${error} </div>`;
+			  
+            resultsContainer.append(errorContent);
+               // console.error('Error ',xhr.status ,' : ',status,' ' );
             }
         });
     }

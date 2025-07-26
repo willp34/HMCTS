@@ -75,9 +75,52 @@ class Tasks extends ResourceController
 		
 	}
 	
+	public function editTask($taskID)
+	{
+		$data = $this->request->getJSON(true);
+	
+		
+		$date = DateTime::createFromFormat('m/d/Y', $data['completion']);
+					
+			
+			$mysqlFormattedDate = $date->format('Y-m-d');
+			
+			$taskCreated =  date('Y-m-d H:i:s');
+			$title = $data['title'];
+			$description = $data['description'];
+			$status = $data['status'];
+			$task_due = $mysqlFormattedDate  ;
+			$created_at = $taskCreated;
+		
+		
+		
+		
+		$this->newTask->update($taskID, [
+						
+						"title"  => $title,
+						"description" => $description,
+						"status" => $status,
+						"due" => $task_due,
+						//"created_at" => $created_at
+					] );
+		$taskEdited["messages"] = "Task " . $taskID . " was edited";
+				return $this->respondUpdated($taskEdited);
+	}
+	
 	public function  deleteTask($taskID){
 		
-		echo  "Task Id  $taskID ";
+		
+		$taskDelete = array();
+		
+			if ($this->newTask->delete($taskID)) {
+				$taskDelete["messages"] = "Task " . $taskID . " was deleted";
+				return $this->respondDeleted($taskDelete); // use respondDeleted if it's a DELETE operation
+			} else {
+				http_response_code(503);
+				$taskDelete["messages"] = "Unable to delete task.";
+				return $this->respond($taskDelete, 503);
+			}
+		
 	}
 	
 	public function getTasks(){
