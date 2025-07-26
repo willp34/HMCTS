@@ -1,0 +1,159 @@
+CRITICAL - 2025-06-22 07:36:38 --> ParseError: syntax error, unexpected token "(", expecting variable
+[Method: GET, Route: api/notes]
+in APPPATH\Controllers\Api\Note.php on line 18.
+ 1 VENDORPATH\composer\ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('C:\\xampp\\htdocs\\notes-saas\\vendor\\composer/../../app\\Controllers\\Api\\Note.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Api\\Note')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Api\\Note', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-22 07:37:19 --> ParseError: syntax error, unexpected token "[", expecting identifier or variable or "{" or "$"
+[Method: GET, Route: api/notes]
+in APPPATH\Controllers\Api\Note.php on line 45.
+ 1 VENDORPATH\composer\ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('C:\\xampp\\htdocs\\notes-saas\\vendor\\composer/../../app\\Controllers\\Api\\Note.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Api\\Note')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Api\\Note', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-22 07:39:19 --> ParseError: syntax error, unexpected token "/", expecting "{"
+[Method: GET, Route: api/notes]
+in APPPATH\Models\NoteModel.php on line 3.
+ 1 VENDORPATH\composer\ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('C:\\xampp\\htdocs\\notes-saas\\vendor\\composer/../../app\\Models\\NoteModel.php')
+ 2 APPPATH\Controllers\Api\Note.php(21): Composer\Autoload\ClassLoader->loadClass('App\\Models\\NoteModel')
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Api\Note->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-22 07:41:11 --> Error: Class "Codigniter\Model" not found
+[Method: GET, Route: api/notes]
+in APPPATH\Models\NoteModel.php on line 7.
+ 1 VENDORPATH\composer\ClassLoader.php(578): include()
+ 2 VENDORPATH\composer\ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('C:\\xampp\\htdocs\\notes-saas\\vendor\\composer/../../app\\Models\\NoteModel.php')
+ 3 APPPATH\Controllers\Api\Note.php(21): Composer\Autoload\ClassLoader->loadClass('App\\Models\\NoteModel')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Api\Note->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-22 07:41:43 --> ParseError: syntax error, unexpected token "/", expecting "{"
+[Method: GET, Route: api/notes]
+in APPPATH\Models\NoteVersionModel.php on line 3.
+ 1 VENDORPATH\composer\ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('C:\\xampp\\htdocs\\notes-saas\\vendor\\composer/../../app\\Models\\NoteVersionModel.php')
+ 2 APPPATH\Controllers\Api\Note.php(22): Composer\Autoload\ClassLoader->loadClass('App\\Models\\NoteVersionModel')
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Api\Note->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-22 07:42:22 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: api/notes]
+in APPPATH\Controllers\Api\Note.php on line 37.
+ 1 APPPATH\Controllers\Api\Note.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Api\\Note.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Note->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-22 07:44:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: api/notes]
+in APPPATH\Controllers\Api\Note.php on line 37.
+ 1 APPPATH\Controllers\Api\Note.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Api\\Note.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Note->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-22 07:44:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: api/notes]
+in APPPATH\Controllers\Api\Note.php on line 38.
+ 1 APPPATH\Controllers\Api\Note.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Api\\Note.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Note->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-22 19:43:25 --> ParseError: syntax error, unexpected token "foreach"
+[Method: GET, Route: teams]
+in APPPATH\Views\templates\header.php on line 22.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('templates/header', [], true)
+ 3 APPPATH\Controllers\BaseController.php(61): view('templates/header', [...])
+ 4 APPPATH\Controllers\Teams.php(45): App\Controllers\BaseController->template('teams', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-22 19:45:48 --> ErrorException: Undefined variable $data
+[Method: GET, Route: teams]
+in APPPATH\Views\templates\header.php on line 21.
+ 1 APPPATH\Views\templates\header.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\templates\\header.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(61): view('templates/header', [...])
+ 6 APPPATH\Controllers\Teams.php(45): App\Controllers\BaseController->template('teams', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-22 19:46:31 --> ErrorException: Undefined variable $data
+[Method: GET, Route: teams]
+in APPPATH\Views\templates\header.php on line 22.
+ 1 APPPATH\Views\templates\header.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\templates\\header.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(61): view('templates/header', [...])
+ 6 APPPATH\Controllers\Teams.php(45): App\Controllers\BaseController->template('teams', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-22 19:47:14 --> ErrorException: Undefined variable $data
+[Method: GET, Route: teams]
+in APPPATH\Views\templates\header.php on line 22.
+ 1 APPPATH\Views\templates\header.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\templates\\header.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(61): view('templates/header', [...])
+ 6 APPPATH\Controllers\Teams.php(45): App\Controllers\BaseController->template('teams', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-22 19:48:07 --> ErrorException: Array to string conversion
+[Method: GET, Route: teams]
+in APPPATH\Views\templates\header.php on line 21.
+ 1 APPPATH\Views\templates\header.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\templates\\header.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(61): view('templates/header', [...])
+ 6 APPPATH\Controllers\Teams.php(45): App\Controllers\BaseController->template('teams', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

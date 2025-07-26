@@ -1,0 +1,1183 @@
+CRITICAL - 2025-06-16 07:35:24 --> ErrorException: Undefined array key "team_name"
+[Method: GET, Route: teams]
+in APPPATH\Views\tables\showTeams.php on line 20.
+ 1 APPPATH\Views\tables\showTeams.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "team_name"', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tables/showTeams', [], true)
+ 5 APPPATH\Views\teams.php(9): view('tables/showTeams', [...])
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('teams', [], true)
+ 9 APPPATH\Controllers\BaseController.php(62): view('teams', [...])
+10 APPPATH\Controllers\Teams.php(44): App\Controllers\BaseController->template('teams', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 07:38:09 --> ErrorException: Undefined array key "team_name"
+[Method: GET, Route: teams]
+in APPPATH\Views\tables\showTeams.php on line 20.
+ 1 APPPATH\Views\tables\showTeams.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "team_name"', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tables/showTeams', [], true)
+ 5 APPPATH\Views\teams.php(9): view('tables/showTeams', [...])
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('teams', [], true)
+ 9 APPPATH\Controllers\BaseController.php(62): view('teams', [...])
+10 APPPATH\Controllers\Teams.php(44): App\Controllers\BaseController->template('teams', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 07:38:35 --> ErrorException: Undefined array key "team_name"
+[Method: GET, Route: teams]
+in APPPATH\Views\tables\showTeams.php on line 20.
+ 1 APPPATH\Views\tables\showTeams.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "team_name"', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tables/showTeams', [], true)
+ 5 APPPATH\Views\teams.php(9): view('tables/showTeams', [...])
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('teams', [], true)
+ 9 APPPATH\Controllers\BaseController.php(62): view('teams', [...])
+10 APPPATH\Controllers\Teams.php(44): App\Controllers\BaseController->template('teams', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 07:40:42 --> ErrorException: Undefined array key "team_name"
+[Method: GET, Route: teams]
+in APPPATH\Views\tables\showTeams.php on line 20.
+ 1 APPPATH\Views\tables\showTeams.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "team_name"', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tables/showTeams', [], true)
+ 5 APPPATH\Views\teams.php(9): view('tables/showTeams', [...])
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('teams', [], true)
+ 9 APPPATH\Controllers\BaseController.php(62): view('teams', [...])
+10 APPPATH\Controllers\Teams.php(44): App\Controllers\BaseController->template('teams', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 07:46:22 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: teams]
+in APPPATH\Views\tables\showTeams.php on line 23.
+ 1 APPPATH\Views\tables\showTeams.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tables/showTeams', [], true)
+ 5 APPPATH\Views\teams.php(9): view('tables/showTeams', [...])
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('teams', [], true)
+ 9 APPPATH\Controllers\BaseController.php(62): view('teams', [...])
+10 APPPATH\Controllers\Teams.php(44): App\Controllers\BaseController->template('teams', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-16 07:50:10 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tm`.`id...', 0)
+#1 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id...')
+#2 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id...')
+#3 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id...', Array, false)
+#4 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\notes-saas\app\Models\TeamUserModel.php(53): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\notes-saas\app\Controllers\Teams.php(35): App\Models\TeamUserModel->teamsBelongTo('16')
+#8 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Teams->index()
+#9 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+#10 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\notes-saas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-06-16 07:50:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+[Method: GET, Route: teams]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (select * from team_users where team_users.team_id= tm.id) as number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\TeamUserModel.php(53): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Teams.php(35): App\Models\TeamUserModel->teamsBelongTo('16')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 07:50:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (select * from team_users where team_users.team_id= tm.id) as number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = \'16\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (select * from team_users where team_users.team_id= tm.id) as number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = \'16\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (select * from team_users where team_users.team_id= tm.id) as number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\TeamUserModel.php(53): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Teams.php(35): App\Models\TeamUserModel->teamsBelongTo('16')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 07:50:10 --> [Caused by] mysqli_sql_exception: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (select * from team_users where team_users.team_id= tm.id) as number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = \'16\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (select * from team_users where team_users.team_id= tm.id) as number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = \'16\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (select * from team_users where team_users.team_id= tm.id) as number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = \'16\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (select * from team_users where team_users.team_id= tm.id) as number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TeamUserModel.php(53): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Teams.php(35): App\Models\TeamUserModel->teamsBelongTo('16')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-16 18:53:28 --> mysqli_sql_exception: Unknown column 'team_users.team_id users.email' in 'field list' in C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `team_us...', 0)
+#1 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `team_us...')
+#2 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `team_us...')
+#3 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `team_us...', Array, false)
+#4 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\notes-saas\app\Models\TeamUserModel.php(58): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\notes-saas\app\Controllers\Api\Team.php(92): App\Models\TeamUserModel->usersInMyTeam('1')
+#8 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\Team->getUsersforTeam('1')
+#9 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+#10 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\notes-saas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-06-16 18:53:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'team_users.team_id users.email' in 'field list'
+[Method: GET, Route: api/getUsersforTeam/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `team_users`.`team_id users`.`email` as `user_email`
+FROM `team_users`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_users`.`team_id` = :team_users.team_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\TeamUserModel.php(58): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Api\Team.php(92): App\Models\TeamUserModel->usersInMyTeam('1')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->getUsersforTeam('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 18:53:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'team_users.team_id users.email' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `team_users`.`team_id users`.`email` as `user_email`
+FROM `team_users`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_users`.`team_id` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `team_users`.`team_id users`.`email` as `user_email`
+FROM `team_users`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_users`.`team_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `team_users`.`team_id users`.`email` as `user_email`
+FROM `team_users`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_users`.`team_id` = :team_users.team_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\TeamUserModel.php(58): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Api\Team.php(92): App\Models\TeamUserModel->usersInMyTeam('1')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->getUsersforTeam('1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 18:53:28 --> [Caused by] mysqli_sql_exception: Unknown column 'team_users.team_id users.email' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `team_users`.`team_id users`.`email` as `user_email`
+FROM `team_users`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_users`.`team_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `team_users`.`team_id users`.`email` as `user_email`
+FROM `team_users`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_users`.`team_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `team_users`.`team_id users`.`email` as `user_email`
+FROM `team_users`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_users`.`team_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `team_users`.`team_id users`.`email` as `user_email`
+FROM `team_users`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_users`.`team_id` = :team_users.team_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TeamUserModel.php(58): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Api\Team.php(92): App\Models\TeamUserModel->usersInMyTeam('1')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->getUsersforTeam('1')
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 20:38:13 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\TeamUserModel::teamsBelongTo
+[Method: GET, Route: teams]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Teams.php(35): CodeIgniter\Model->__call('teamsBelongTo', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 20:54:01 --> ParseError: syntax error, unexpected token ":"
+[Method: GET, Route: teams]
+in APPPATH\Models\TeamUserModel.php on line 52.
+ 1 VENDORPATH\composer\ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('C:\\xampp\\htdocs\\notes-saas\\vendor\\composer/../../app\\Models\\TeamUserModel.php')
+ 2 APPPATH\Controllers\Teams.php(25): Composer\Autoload\ClassLoader->loadClass('App\\Models\\TeamUserModel')
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Teams->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 20:54:44 --> ParseError: syntax error, unexpected token ":"
+[Method: GET, Route: teams]
+in APPPATH\Models\TeamUserModel.php on line 48.
+ 1 VENDORPATH\composer\ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('C:\\xampp\\htdocs\\notes-saas\\vendor\\composer/../../app\\Models\\TeamUserModel.php')
+ 2 APPPATH\Controllers\Teams.php(25): Composer\Autoload\ClassLoader->loadClass('App\\Models\\TeamUserModel')
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Teams->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 20:56:47 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\TeamUserModel::teamsCreated
+[Method: GET, Route: teams]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Teams.php(35): CodeIgniter\Model->__call('teamsCreated', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 20:56:47 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\TeamUserModel::teamsCreated
+[Method: GET, Route: teams]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Teams.php(35): CodeIgniter\Model->__call('teamsCreated', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 20:57:33 --> ErrorException: Undefined variable $userId
+[Method: GET, Route: teams]
+in APPPATH\Controllers\Teams.php on line 37.
+ 1 APPPATH\Controllers\Teams.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Teams.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 20:58:20 --> ErrorException: Undefined variable $userId
+[Method: GET, Route: teams]
+in APPPATH\Controllers\Teams.php on line 37.
+ 1 APPPATH\Controllers\Teams.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Teams.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-16 20:59:42 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tm`.`id...', 0)
+#1 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id...')
+#2 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id...')
+#3 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id...', Array, false)
+#4 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\notes-saas\app\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\notes-saas\app\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser(Array, 'created')
+#8 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Teams->index()
+#9 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+#10 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\notes-saas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-06-16 20:59:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+[Method: GET, Route: teams]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'created')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 20:59:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'created')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 20:59:43 --> [Caused by] mysqli_sql_exception: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'created')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-16 20:59:55 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tm`.`id...', 0)
+#1 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id...')
+#2 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id...')
+#3 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id...', Array, false)
+#4 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\notes-saas\app\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\notes-saas\app\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser(Array, 'created')
+#8 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Teams->index()
+#9 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+#10 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\notes-saas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-06-16 20:59:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+[Method: GET, Route: teams]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'created')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 20:59:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'created')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 20:59:55 --> [Caused by] mysqli_sql_exception: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'created')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-16 21:00:22 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tm`.`id...', 0)
+#1 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id...')
+#2 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id...')
+#3 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id...', Array, false)
+#4 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\notes-saas\app\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\notes-saas\app\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser(Array, 'created')
+#8 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Teams->index()
+#9 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+#10 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\notes-saas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-06-16 21:00:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+[Method: GET, Route: teams]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'created')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 21:00:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'created')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 21:00:22 --> [Caused by] mysqli_sql_exception: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'created')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-16 21:01:03 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tm`.`id...', 0)
+#1 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id...')
+#2 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id...')
+#3 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id...', Array, false)
+#4 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\notes-saas\app\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\notes-saas\app\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser(Array, 'created')
+#8 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Teams->index()
+#9 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+#10 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\notes-saas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-06-16 21:01:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+[Method: GET, Route: teams]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'created')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 21:01:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'created')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 21:01:03 --> [Caused by] mysqli_sql_exception: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'created')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-16 21:11:13 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tm`.`id...', 0)
+#1 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id...')
+#2 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id...')
+#3 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id...', Array, false)
+#4 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\notes-saas\app\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\notes-saas\app\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser(Array, 'created')
+#8 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Teams->index()
+#9 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+#10 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\notes-saas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-06-16 21:11:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+[Method: GET, Route: teams]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'created')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 21:11:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'created')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 21:11:13 --> [Caused by] mysqli_sql_exception: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'created')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-16 21:15:55 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tm`.`id...', 0)
+#1 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id...')
+#2 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id...')
+#3 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id...', Array, false)
+#4 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\notes-saas\app\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\notes-saas\app\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser(Array, 'created')
+#8 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Teams->index()
+#9 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+#10 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\notes-saas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-06-16 21:15:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+[Method: GET, Route: teams]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'created')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 21:15:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'created')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 21:15:55 --> [Caused by] mysqli_sql_exception: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'created')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-16 21:17:26 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tm`.`id...', 0)
+#1 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id...')
+#2 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id...')
+#3 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id...', Array, false)
+#4 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\notes-saas\app\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\notes-saas\app\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser(Array, 'created')
+#8 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Teams->index()
+#9 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+#10 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\notes-saas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-06-16 21:17:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+[Method: GET, Route: teams]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'created')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 21:17:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'created')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 21:17:26 --> [Caused by] mysqli_sql_exception: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`, (SELECT COUNT(*) FROM team_users WHERE team_users.team_id = tm.id) AS number_of_members
+FROM `teams` as `tm`
+WHERE `tm`.`created_by` = :tm.created_by:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TeamUserModel.php(46): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'created')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 21:18:53 --> ErrorException: Undefined variable $createdTeams
+[Method: GET, Route: teams]
+in APPPATH\Controllers\Teams.php on line 44.
+ 1 APPPATH\Controllers\Teams.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $createdTeams', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Teams.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 21:19:32 --> ErrorException: Array to string conversion
+[Method: GET, Route: teams]
+in APPPATH\Controllers\Teams.php on line 32.
+ 1 APPPATH\Controllers\Teams.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Teams.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-16 21:23:35 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tm`.`id...', 0)
+#1 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id...')
+#2 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id...')
+#3 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id...', Array, false)
+#4 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\notes-saas\app\Models\TeamUserModel.php(53): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\notes-saas\app\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser(Array, 'member')
+#8 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Teams->index()
+#9 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+#10 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\notes-saas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-06-16 21:23:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+[Method: GET, Route: teams]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`
+FROM `teams` as `tm`
+JOIN `team_users` `tu` ON `tu`.`team_id` = `tm`.`id`
+WHERE `tu`.`user_id` = :tu.user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\TeamUserModel.php(53): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'member')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 21:23:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id`, `tm`.`name` as `team_name`
+FROM `teams` as `tm`
+JOIN `team_users` `tu` ON `tu`.`team_id` = `tm`.`id`
+WHERE `tu`.`user_id` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id`, `tm`.`name` as `team_name`
+FROM `teams` as `tm`
+JOIN `team_users` `tu` ON `tu`.`team_id` = `tm`.`id`
+WHERE `tu`.`user_id` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`
+FROM `teams` as `tm`
+JOIN `team_users` `tu` ON `tu`.`team_id` = `tm`.`id`
+WHERE `tu`.`user_id` = :tu.user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\TeamUserModel.php(53): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'member')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 21:23:35 --> [Caused by] mysqli_sql_exception: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`
+FROM `teams` as `tm`
+JOIN `team_users` `tu` ON `tu`.`team_id` = `tm`.`id`
+WHERE `tu`.`user_id` = (\'16\',\'williamprritchard@googlemail.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id`, `tm`.`name` as `team_name`
+FROM `teams` as `tm`
+JOIN `team_users` `tu` ON `tu`.`team_id` = `tm`.`id`
+WHERE `tu`.`user_id` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id`, `tm`.`name` as `team_name`
+FROM `teams` as `tm`
+JOIN `team_users` `tu` ON `tu`.`team_id` = `tm`.`id`
+WHERE `tu`.`user_id` = (\'16\',\'williamprritchard@googlemail.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`name` as `team_name`
+FROM `teams` as `tm`
+JOIN `team_users` `tu` ON `tu`.`team_id` = `tm`.`id`
+WHERE `tu`.`user_id` = :tu.user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TeamUserModel.php(53): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser([...], 'member')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 21:31:11 --> ErrorException: Undefined array key "number_of_members"
+[Method: GET, Route: teams]
+in APPPATH\Views\tables\showTeams.php on line 24.
+ 1 APPPATH\Views\tables\showTeams.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "number_of_members"', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tables/showTeams', [], true)
+ 5 APPPATH\Views\teams.php(11): view('tables/showTeams', [...])
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('teams', [], true)
+ 9 APPPATH\Controllers\BaseController.php(62): view('teams', [...])
+10 APPPATH\Controllers\Teams.php(44): App\Controllers\BaseController->template('teams', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 21:36:29 --> ErrorException: Undefined array key "number_of_members"
+[Method: GET, Route: teams]
+in APPPATH\Views\tables\showTeams.php on line 26.
+ 1 APPPATH\Views\tables\showTeams.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "number_of_members"', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tables/showTeams', [], true)
+ 5 APPPATH\Views\teams.php(11): view('tables/showTeams', [...])
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('teams', [], true)
+ 9 APPPATH\Controllers\BaseController.php(62): view('teams', [...])
+10 APPPATH\Controllers\Teams.php(44): App\Controllers\BaseController->template('teams', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 22:26:04 --> ErrorException: Undefined array key "role"
+[Method: GET, Route: teams]
+in APPPATH\Views\tables\showTeams.php on line 26.
+ 1 APPPATH\Views\tables\showTeams.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tables/showTeams', [], true)
+ 5 APPPATH\Views\teams.php(9): view('tables/showTeams', [...])
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('teams', [], true)
+ 9 APPPATH\Controllers\BaseController.php(62): view('teams', [...])
+10 APPPATH\Controllers\Teams.php(44): App\Controllers\BaseController->template('teams', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-16 22:28:17 --> mysqli_sql_exception: Unknown column 'tm.role' in 'field list' in C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tm`.`id...', 0)
+#1 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id...')
+#2 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id...')
+#3 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id...', Array, false)
+#4 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\notes-saas\app\Models\TeamUserModel.php(53): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\notes-saas\app\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser('16', 'member')
+#8 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Teams->index()
+#9 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+#10 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\notes-saas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-06-16 22:28:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tm.role' in 'field list'
+[Method: GET, Route: teams]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`role`, `tm`.`name` as `team_name`
+FROM `teams` as `tm`
+JOIN `team_users` `tu` ON `tu`.`team_id` = `tm`.`id`
+WHERE `tu`.`user_id` = :tu.user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\TeamUserModel.php(53): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser('16', 'member')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 22:28:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tm.role' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id`, `tm`.`role`, `tm`.`name` as `team_name`
+FROM `teams` as `tm`
+JOIN `team_users` `tu` ON `tu`.`team_id` = `tm`.`id`
+WHERE `tu`.`user_id` = \'16\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id`, `tm`.`role`, `tm`.`name` as `team_name`
+FROM `teams` as `tm`
+JOIN `team_users` `tu` ON `tu`.`team_id` = `tm`.`id`
+WHERE `tu`.`user_id` = \'16\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`role`, `tm`.`name` as `team_name`
+FROM `teams` as `tm`
+JOIN `team_users` `tu` ON `tu`.`team_id` = `tm`.`id`
+WHERE `tu`.`user_id` = :tu.user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\TeamUserModel.php(53): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser('16', 'member')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 22:28:17 --> [Caused by] mysqli_sql_exception: Unknown column 'tm.role' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tm`.`id`, `tm`.`role`, `tm`.`name` as `team_name`
+FROM `teams` as `tm`
+JOIN `team_users` `tu` ON `tu`.`team_id` = `tm`.`id`
+WHERE `tu`.`user_id` = \'16\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tm`.`id`, `tm`.`role`, `tm`.`name` as `team_name`
+FROM `teams` as `tm`
+JOIN `team_users` `tu` ON `tu`.`team_id` = `tm`.`id`
+WHERE `tu`.`user_id` = \'16\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tm`.`id`, `tm`.`role`, `tm`.`name` as `team_name`
+FROM `teams` as `tm`
+JOIN `team_users` `tu` ON `tu`.`team_id` = `tm`.`id`
+WHERE `tu`.`user_id` = \'16\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tm`.`id`, `tm`.`role`, `tm`.`name` as `team_name`
+FROM `teams` as `tm`
+JOIN `team_users` `tu` ON `tu`.`team_id` = `tm`.`id`
+WHERE `tu`.`user_id` = :tu.user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TeamUserModel.php(53): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Teams.php(37): App\Models\TeamUserModel->getTeamsByUser('16', 'member')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 22:28:53 --> ErrorException: Undefined array key "role"
+[Method: GET, Route: teams]
+in APPPATH\Views\tables\showTeams.php on line 26.
+ 1 APPPATH\Views\tables\showTeams.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tables/showTeams', [], true)
+ 5 APPPATH\Views\teams.php(9): view('tables/showTeams', [...])
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('teams', [], true)
+ 9 APPPATH\Controllers\BaseController.php(62): view('teams', [...])
+10 APPPATH\Controllers\Teams.php(44): App\Controllers\BaseController->template('teams', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 22:30:31 --> ErrorException: Undefined array key "role"
+[Method: GET, Route: teams]
+in APPPATH\Views\tables\showTeams.php on line 21.
+ 1 APPPATH\Views\tables\showTeams.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tables/showTeams', [], true)
+ 5 APPPATH\Views\teams.php(9): view('tables/showTeams', [...])
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('teams', [], true)
+ 9 APPPATH\Controllers\BaseController.php(62): view('teams', [...])
+10 APPPATH\Controllers\Teams.php(44): App\Controllers\BaseController->template('teams', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-16 22:31:52 --> ErrorException: Undefined array key "role"
+[Method: GET, Route: teams]
+in APPPATH\Views\tables\showTeams.php on line 26.
+ 1 APPPATH\Views\tables\showTeams.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tables/showTeams', [], true)
+ 5 APPPATH\Views\teams.php(9): view('tables/showTeams', [...])
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('teams', [], true)
+ 9 APPPATH\Controllers\BaseController.php(62): view('teams', [...])
+10 APPPATH\Controllers\Teams.php(44): App\Controllers\BaseController->template('teams', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

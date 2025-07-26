@@ -1,0 +1,100 @@
+CRITICAL - 2025-05-19 20:12:46 --> ParseError: syntax error, unexpected token "/", expecting "{"
+[Method: GET, Route: teams]
+in APPPATH\Controllers\Team.php on line 3.
+ 1 VENDORPATH\composer\ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('C:\\xampp\\htdocs\\notes-saas\\vendor\\composer/../../app\\Controllers\\Team.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Team')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Team', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-19 20:13:22 --> ParseError: syntax error, unexpected token "/", expecting "{"
+[Method: GET, Route: teams]
+in APPPATH\Controllers\Team.php on line 3.
+ 1 VENDORPATH\composer\ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('C:\\xampp\\htdocs\\notes-saas\\vendor\\composer/../../app\\Controllers\\Team.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Team')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Team', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-19 20:13:28 --> ParseError: syntax error, unexpected token "/", expecting "{"
+[Method: GET, Route: teams]
+in APPPATH\Controllers\Team.php on line 3.
+ 1 VENDORPATH\composer\ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('C:\\xampp\\htdocs\\notes-saas\\vendor\\composer/../../app\\Controllers\\Team.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Team')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Team', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-19 20:14:10 --> ParseError: syntax error, unexpected token "/", expecting "{"
+[Method: GET, Route: teams]
+in APPPATH\Controllers\Team.php on line 3.
+ 1 VENDORPATH\composer\ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('C:\\xampp\\htdocs\\notes-saas\\vendor\\composer/../../app\\Controllers\\Team.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Team')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Team', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-19 20:14:13 --> ParseError: syntax error, unexpected token "/", expecting "{"
+[Method: GET, Route: teams]
+in APPPATH\Controllers\Team.php on line 3.
+ 1 VENDORPATH\composer\ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('C:\\xampp\\htdocs\\notes-saas\\vendor\\composer/../../app\\Controllers\\Team.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Team')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Team', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-19 20:33:03 --> ParseError: syntax error, unexpected token "}", expecting ";"
+[Method: GET, Route: teams]
+in APPPATH\Controllers\Team.php on line 17.
+ 1 VENDORPATH\composer\ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('C:\\xampp\\htdocs\\notes-saas\\vendor\\composer/../../app\\Controllers\\Team.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Team')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Team', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-19 20:35:26 --> ParseError: syntax error, unexpected token "}", expecting ";"
+[Method: GET, Route: teams]
+in APPPATH\Controllers\Team.php on line 17.
+ 1 VENDORPATH\composer\ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('C:\\xampp\\htdocs\\notes-saas\\vendor\\composer/../../app\\Controllers\\Team.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Team')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Team', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-19 20:36:48 --> Error: Class "App\Controllers\Api\BaseController" not found
+[Method: GET, Route: teams]
+in APPPATH\Controllers\Team.php on line 6.
+ 1 VENDORPATH\composer\ClassLoader.php(578): include()
+ 2 VENDORPATH\composer\ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('C:\\xampp\\htdocs\\notes-saas\\vendor\\composer/../../app\\Controllers\\Team.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Team')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Team', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-19 20:38:40 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Api/Team::create"
+[Method: GET, Route: teams]
+in SYSTEMPATH\Router\Router.php on line 496.
+ 1 SYSTEMPATH\Router\Router.php(496): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Api/Team::create')
+ 2 SYSTEMPATH\Router\Router.php(213): CodeIgniter\Router\Router->checkRoutes('teams')
+ 3 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('teams')
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

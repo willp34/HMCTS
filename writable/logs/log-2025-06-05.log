@@ -1,0 +1,816 @@
+CRITICAL - 2025-06-05 11:31:49 --> ParseError: syntax error, unexpected token "=>", expecting "]"
+[Method: GET, Route: api/invite/9]
+in APPPATH\Models\TeamUserModel.php on line 18.
+ 1 VENDORPATH\composer\ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('C:\\xampp\\htdocs\\notes-saas\\vendor\\composer/../../app\\Models\\TeamUserModel.php')
+ 2 APPPATH\Controllers\Api\Team.php(20): Composer\Autoload\ClassLoader->loadClass('App\\Models\\TeamUserModel')
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Api\Team->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 11:33:45 --> ParseError: syntax error, unexpected token "=>", expecting "]"
+[Method: GET, Route: api/invite/9]
+in APPPATH\Models\TeamUserModel.php on line 27.
+ 1 VENDORPATH\composer\ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('C:\\xampp\\htdocs\\notes-saas\\vendor\\composer/../../app\\Models\\TeamUserModel.php')
+ 2 APPPATH\Controllers\Api\Team.php(20): Composer\Autoload\ClassLoader->loadClass('App\\Models\\TeamUserModel')
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Api\Team->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 11:34:12 --> ParseError: syntax error, unexpected token "=>", expecting "]"
+[Method: GET, Route: api/invite/9]
+in APPPATH\Models\TeamUserModel.php on line 27.
+ 1 VENDORPATH\composer\ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('C:\\xampp\\htdocs\\notes-saas\\vendor\\composer/../../app\\Models\\TeamUserModel.php')
+ 2 APPPATH\Controllers\Api\Team.php(20): Composer\Autoload\ClassLoader->loadClass('App\\Models\\TeamUserModel')
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Api\Team->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 11:34:25 --> ParseError: syntax error, unexpected token "=>", expecting "]"
+[Method: GET, Route: api/invite/9]
+in APPPATH\Models\TeamUserModel.php on line 34.
+ 1 VENDORPATH\composer\ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('C:\\xampp\\htdocs\\notes-saas\\vendor\\composer/../../app\\Models\\TeamUserModel.php')
+ 2 APPPATH\Controllers\Api\Team.php(20): Composer\Autoload\ClassLoader->loadClass('App\\Models\\TeamUserModel')
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Api\Team->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 11:40:34 --> ErrorException: Undefined property: App\Services\AuthService::$user
+[Method: GET, Route: api/invite/9]
+in APPPATH\Controllers\Api\Team.php on line 21.
+ 1 APPPATH\Controllers\Api\Team.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Services\\AuthService::$user', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Api\\Team.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Api\Team->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 12:02:22 --> TypeError: Key material must be a string, resource, or OpenSSLAsymmetricKey
+[Method: GET, Route: api/invite/4]
+in VENDORPATH\firebase\php-jwt\src\Key.php on line 26.
+ 1 APPPATH\Services\AuthService.php(22): Firebase\JWT\Key->__construct(false, 'HS256')
+ 2 APPPATH\Controllers\Api\Team.php(21): App\Services\AuthService->user()
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Api\Team->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 12:06:35 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user
+[Method: GET, Route: api/invite/4]
+in APPPATH\Controllers\Api\Team.php on line 60.
+ 1 APPPATH\Controllers\Api\Team.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Api\\Team.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->invite('4')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 12:08:53 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user
+[Method: GET, Route: api/invite/4]
+in APPPATH\Controllers\Api\Team.php on line 60.
+ 1 APPPATH\Controllers\Api\Team.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Api\\Team.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->invite('4')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 12:10:22 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user
+[Method: GET, Route: api/invite/9]
+in APPPATH\Controllers\Api\Team.php on line 60.
+ 1 APPPATH\Controllers\Api\Team.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Api\\Team.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->invite('9')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 12:13:57 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user
+[Method: GET, Route: api/invite/4]
+in APPPATH\Controllers\Api\Team.php on line 60.
+ 1 APPPATH\Controllers\Api\Team.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Api\\Team.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->invite('4')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 12:19:31 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user
+[Method: GET, Route: api/invite/4]
+in APPPATH\Controllers\Api\Team.php on line 60.
+ 1 APPPATH\Controllers\Api\Team.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Api\\Team.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->invite('4')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 12:30:19 --> Error: Call to a member function isTeamAdmin() on array
+[Method: GET, Route: api/invite/4]
+in APPPATH\Controllers\Api\Team.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->invite('4')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 12:41:38 --> Error: Call to undefined method stdClass::isTeamAdmin()
+[Method: GET, Route: api/invite/4]
+in APPPATH\Controllers\Api\Team.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->invite('4')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 12:46:48 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: api/invite/4]
+in APPPATH\Controllers\Api\Team.php on line 25.
+ 1 VENDORPATH\composer\ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('C:\\xampp\\htdocs\\notes-saas\\vendor\\composer/../../app\\Controllers\\Api\\Team.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Api\\Team')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Api\\Team', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 12:47:13 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: api/invite/4]
+in APPPATH\Controllers\Api\Team.php on line 67.
+ 1 APPPATH\Controllers\Api\Team.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Api\\Team.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->invite('4')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 15:33:56 --> Error: Call to undefined method App\Controllers\Api\Team::getJSON()
+[Method: GET, Route: api/invite/1]
+in APPPATH\Controllers\Api\Team.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->invite('1')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 15:34:35 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: api/invite/1]
+in APPPATH\Controllers\Api\Team.php on line 71.
+ 1 APPPATH\Controllers\Api\Team.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Api\\Team.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->invite('1')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 16:15:47 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user
+[Method: GET, Route: api/teams]
+in APPPATH\Controllers\Api\Team.php on line 32.
+ 1 APPPATH\Controllers\Api\Team.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Api\\Team.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 16:17:37 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user
+[Method: GET, Route: api/teams]
+in APPPATH\Controllers\Api\Team.php on line 32.
+ 1 APPPATH\Controllers\Api\Team.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Api\\Team.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 16:21:49 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user
+[Method: GET, Route: api/teams]
+in APPPATH\Controllers\Api\Team.php on line 32.
+ 1 APPPATH\Controllers\Api\Team.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Api\\Team.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 16:23:30 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user
+[Method: GET, Route: api/teams]
+in APPPATH\Controllers\Api\Team.php on line 32.
+ 1 APPPATH\Controllers\Api\Team.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Api\\Team.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 16:27:11 --> Error: Call to undefined method App\Controllers\Api\Team::teamuserModel()
+[Method: GET, Route: api/teams]
+in APPPATH\Controllers\Api\Team.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-05 16:33:12 --> mysqli_sql_exception: Unknown table 'notes_saas.team_user' in C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `team_us...', 0)
+#1 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `team_us...')
+#2 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `team_us...')
+#3 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `team_us...', Array, false)
+#4 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\notes-saas\app\Models\TeamUserModel.php(44): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\notes-saas\app\Controllers\Api\Team.php(34): App\Models\TeamUserModel->teamsBelongTo('16')
+#8 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\Team->index()
+#9 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+#10 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\notes-saas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-06-05 16:33:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'notes_saas.team_user'
+[Method: GET, Route: api/teams]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `team_user`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_user`.`team_id`
+JOIN `users` ON `users`.`id` = `team_user`.`user_id`
+WHERE `team_user`.`user_id` = :team_user.user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\TeamUserModel.php(44): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Api\Team.php(34): App\Models\TeamUserModel->teamsBelongTo('16')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 16:33:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'notes_saas.team_user'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `team_user`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_user`.`team_id`
+JOIN `users` ON `users`.`id` = `team_user`.`user_id`
+WHERE `team_user`.`user_id` = \'16\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `team_user`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_user`.`team_id`
+JOIN `users` ON `users`.`id` = `team_user`.`user_id`
+WHERE `team_user`.`user_id` = \'16\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `team_user`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_user`.`team_id`
+JOIN `users` ON `users`.`id` = `team_user`.`user_id`
+WHERE `team_user`.`user_id` = :team_user.user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\TeamUserModel.php(44): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Api\Team.php(34): App\Models\TeamUserModel->teamsBelongTo('16')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 16:33:12 --> [Caused by] mysqli_sql_exception: Unknown table 'notes_saas.team_user'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `team_user`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_user`.`team_id`
+JOIN `users` ON `users`.`id` = `team_user`.`user_id`
+WHERE `team_user`.`user_id` = \'16\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `team_user`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_user`.`team_id`
+JOIN `users` ON `users`.`id` = `team_user`.`user_id`
+WHERE `team_user`.`user_id` = \'16\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `team_user`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_user`.`team_id`
+JOIN `users` ON `users`.`id` = `team_user`.`user_id`
+WHERE `team_user`.`user_id` = \'16\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `team_user`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_user`.`team_id`
+JOIN `users` ON `users`.`id` = `team_user`.`user_id`
+WHERE `team_user`.`user_id` = :team_user.user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TeamUserModel.php(44): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Api\Team.php(34): App\Models\TeamUserModel->teamsBelongTo('16')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-05 16:33:59 --> mysqli_sql_exception: Unknown table 'notes_saas.team_user' in C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `team_us...', 0)
+#1 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `team_us...')
+#2 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `team_us...')
+#3 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `team_us...', Array, false)
+#4 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\notes-saas\app\Models\TeamUserModel.php(44): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\notes-saas\app\Controllers\Api\Team.php(34): App\Models\TeamUserModel->teamsBelongTo('16')
+#8 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\Team->index()
+#9 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+#10 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\notes-saas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-06-05 16:33:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'notes_saas.team_user'
+[Method: GET, Route: api/teams]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `team_user`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_users`.`team_id`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_user`.`user_id` = :team_user.user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\TeamUserModel.php(44): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Api\Team.php(34): App\Models\TeamUserModel->teamsBelongTo('16')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 16:33:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'notes_saas.team_user'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `team_user`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_users`.`team_id`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_user`.`user_id` = \'16\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `team_user`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_users`.`team_id`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_user`.`user_id` = \'16\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `team_user`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_users`.`team_id`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_user`.`user_id` = :team_user.user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\TeamUserModel.php(44): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Api\Team.php(34): App\Models\TeamUserModel->teamsBelongTo('16')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 16:33:59 --> [Caused by] mysqli_sql_exception: Unknown table 'notes_saas.team_user'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `team_user`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_users`.`team_id`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_user`.`user_id` = \'16\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `team_user`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_users`.`team_id`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_user`.`user_id` = \'16\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `team_user`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_users`.`team_id`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_user`.`user_id` = \'16\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `team_user`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_users`.`team_id`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_user`.`user_id` = :team_user.user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TeamUserModel.php(44): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Api\Team.php(34): App\Models\TeamUserModel->teamsBelongTo('16')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-05 16:34:23 --> mysqli_sql_exception: Unknown column 'users.name' in 'field list' in C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `team_us...', 0)
+#1 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `team_us...')
+#2 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `team_us...')
+#3 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `team_us...', Array, false)
+#4 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\notes-saas\app\Models\TeamUserModel.php(44): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\notes-saas\app\Controllers\Api\Team.php(34): App\Models\TeamUserModel->teamsBelongTo('16')
+#8 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Api\Team->index()
+#9 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+#10 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\notes-saas\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\notes-saas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-06-05 16:34:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.name' in 'field list'
+[Method: GET, Route: api/teams]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `team_users`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_users`.`team_id`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_users`.`user_id` = :team_users.user_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\TeamUserModel.php(44): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Api\Team.php(34): App\Models\TeamUserModel->teamsBelongTo('16')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 16:34:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `team_users`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_users`.`team_id`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_users`.`user_id` = \'16\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `team_users`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_users`.`team_id`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_users`.`user_id` = \'16\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `team_users`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_users`.`team_id`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_users`.`user_id` = :team_users.user_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\TeamUserModel.php(44): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Api\Team.php(34): App\Models\TeamUserModel->teamsBelongTo('16')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 16:34:23 --> [Caused by] mysqli_sql_exception: Unknown column 'users.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `team_users`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_users`.`team_id`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_users`.`user_id` = \'16\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `team_users`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_users`.`team_id`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_users`.`user_id` = \'16\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `team_users`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_users`.`team_id`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_users`.`user_id` = \'16\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `team_users`.*, `teams`.`name` as `team_name`, `users`.`email` as `user_email`, `users`.`name` as `user_name`
+FROM `team_users`
+JOIN `teams` ON `teams`.`id` = `team_users`.`team_id`
+JOIN `users` ON `users`.`id` = `team_users`.`user_id`
+WHERE `team_users`.`user_id` = :team_users.user_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TeamUserModel.php(44): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Api\Team.php(34): App\Models\TeamUserModel->teamsBelongTo('16')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 17:20:02 --> ErrorException: Undefined variable $tables
+[Method: GET, Route: api/teams]
+in APPPATH\Controllers\Api\Team.php on line 36.
+ 1 APPPATH\Controllers\Api\Team.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tables', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Api\\Team.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 17:20:18 --> ErrorException: Undefined variable $tables
+[Method: GET, Route: api/teams]
+in APPPATH\Controllers\Api\Team.php on line 36.
+ 1 APPPATH\Controllers\Api\Team.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tables', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Api\\Team.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 17:21:30 --> TypeError: view(): Argument #3 ($options) must be of type array, bool given, called in C:\xampp\htdocs\notes-saas\app\Controllers\Api\Team.php on line 36
+[Method: GET, Route: api/teams]
+in SYSTEMPATH\Common.php on line 1161.
+ 1 APPPATH\Controllers\Api\Team.php(36): view('tables/showTeams', [...], true)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Api\Team->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Team))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 18:07:45 --> ErrorException: Undefined property: App\Controllers\Teams::$teamuserModel
+[Method: GET, Route: teams]
+in APPPATH\Controllers\Teams.php on line 17.
+ 1 APPPATH\Controllers\Teams.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Teams::$teamuserModel', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Teams.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 18:08:08 --> ErrorException: Undefined property: App\Controllers\Teams::$teamuserModel
+[Method: GET, Route: teams]
+in APPPATH\Controllers\Teams.php on line 17.
+ 1 APPPATH\Controllers\Teams.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Teams::$teamuserModel', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Teams.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 18:08:20 --> ErrorException: Undefined property: App\Controllers\Teams::$teamuserModel
+[Method: GET, Route: teams]
+in APPPATH\Controllers\Teams.php on line 17.
+ 1 APPPATH\Controllers\Teams.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Teams::$teamuserModel', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Teams.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 18:09:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: teams]
+in APPPATH\Controllers\Teams.php on line 35.
+ 1 APPPATH\Controllers\Teams.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Teams.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 18:09:54 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: teams]
+in APPPATH\Controllers\Teams.php on line 35.
+ 1 APPPATH\Controllers\Teams.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Teams.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 18:10:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: teams]
+in APPPATH\Controllers\Teams.php on line 35.
+ 1 APPPATH\Controllers\Teams.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Teams.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 18:15:10 --> ErrorException: Undefined variable $tableData
+[Method: GET, Route: teams]
+in APPPATH\Views\teams.php on line 9.
+ 1 APPPATH\Views\teams.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tableData', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('teams', [], true)
+ 5 APPPATH\Controllers\BaseController.php(62): view('teams', [...])
+ 6 APPPATH\Controllers\Teams.php(42): App\Controllers\BaseController->template('teams', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 18:16:39 --> ErrorException: Undefined variable $html
+[Method: GET, Route: teams]
+in APPPATH\Controllers\Teams.php on line 40.
+ 1 APPPATH\Controllers\Teams.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $html', 'C:\\xampp\\htdocs\\notes-saas\\app\\Controllers\\Teams.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 18:40:23 --> ErrorException: Undefined variable $tableData
+[Method: GET, Route: teams]
+in APPPATH\Views\teams.php on line 9.
+ 1 APPPATH\Views\teams.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tableData', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('teams', [], true)
+ 5 APPPATH\Controllers\BaseController.php(62): view('teams', [...])
+ 6 APPPATH\Controllers\Teams.php(42): App\Controllers\BaseController->template('teams', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 18:42:25 --> ErrorException: Undefined variable $data
+[Method: GET, Route: teams]
+in APPPATH\Views\teams.php on line 9.
+ 1 APPPATH\Views\teams.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('teams', [], true)
+ 5 APPPATH\Controllers\BaseController.php(62): view('teams', [...])
+ 6 APPPATH\Controllers\Teams.php(42): App\Controllers\BaseController->template('teams', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 18:44:03 --> ParseError: syntax error, unexpected token "foreach"
+[Method: GET, Route: teams]
+in APPPATH\Views\tables\showTeams.php on line 13.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tables/showTeams', [], true)
+ 3 APPPATH\Views\teams.php(9): view('tables/showTeams', [...])
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('teams', [], true)
+ 7 APPPATH\Controllers\BaseController.php(62): view('teams', [...])
+ 8 APPPATH\Controllers\Teams.php(42): App\Controllers\BaseController->template('teams', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 18:46:22 --> ErrorException: Attempt to read property "team_name" on string
+[Method: GET, Route: teams]
+in APPPATH\Views\tables\showTeams.php on line 18.
+ 1 APPPATH\Views\tables\showTeams.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "team_name" on string', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tables/showTeams', [], true)
+ 5 APPPATH\Views\teams.php(9): view('tables/showTeams', [...])
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('teams', [], true)
+ 9 APPPATH\Controllers\BaseController.php(62): view('teams', [...])
+10 APPPATH\Controllers\Teams.php(42): App\Controllers\BaseController->template('teams', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 18:46:55 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: teams]
+in APPPATH\Views\tables\showTeams.php on line 18.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tables/showTeams', [], true)
+ 4 APPPATH\Views\teams.php(9): view('tables/showTeams', [...])
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('teams', [], true)
+ 8 APPPATH\Controllers\BaseController.php(62): view('teams', [...])
+ 9 APPPATH\Controllers\Teams.php(42): App\Controllers\BaseController->template('teams', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 18:48:33 --> ErrorException: Attempt to read property "team_name" on string
+[Method: GET, Route: teams]
+in APPPATH\Views\tables\showTeams.php on line 18.
+ 1 APPPATH\Views\tables\showTeams.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "team_name" on string', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tables/showTeams', [], true)
+ 5 APPPATH\Views\teams.php(9): view('tables/showTeams', [...])
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('teams', [], true)
+ 9 APPPATH\Controllers\BaseController.php(62): view('teams', [...])
+10 APPPATH\Controllers\Teams.php(42): App\Controllers\BaseController->template('teams', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 18:49:10 --> ErrorException: Uninitialized string offset 1
+[Method: GET, Route: teams]
+in APPPATH\Views\tables\showTeams.php on line 18.
+ 1 APPPATH\Views\tables\showTeams.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized string offset 1', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tables/showTeams', [], true)
+ 5 APPPATH\Views\teams.php(9): view('tables/showTeams', [...])
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('teams', [], true)
+ 9 APPPATH\Controllers\BaseController.php(62): view('teams', [...])
+10 APPPATH\Controllers\Teams.php(42): App\Controllers\BaseController->template('teams', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 18:50:09 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: teams]
+in APPPATH\Views\tables\showTeams.php on line 18.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tables/showTeams', [], true)
+ 4 APPPATH\Views\teams.php(9): view('tables/showTeams', [...])
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('teams', [], true)
+ 8 APPPATH\Controllers\BaseController.php(62): view('teams', [...])
+ 9 APPPATH\Controllers\Teams.php(42): App\Controllers\BaseController->template('teams', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 18:51:25 --> ErrorException: Undefined variable $teams
+[Method: GET, Route: teams]
+in APPPATH\Views\tables\showTeams.php on line 14.
+ 1 APPPATH\Views\tables\showTeams.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $teams', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tables/showTeams', [], true)
+ 5 APPPATH\Views\teams.php(9): view('tables/showTeams', [...])
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('teams', [], true)
+ 9 APPPATH\Controllers\BaseController.php(62): view('teams', [...])
+10 APPPATH\Controllers\Teams.php(42): App\Controllers\BaseController->template('teams', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 18:53:23 --> ErrorException: Undefined array key 0
+[Method: GET, Route: teams]
+in APPPATH\Views\tables\showTeams.php on line 19.
+ 1 APPPATH\Views\tables\showTeams.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tables/showTeams', [], true)
+ 5 APPPATH\Views\teams.php(9): view('tables/showTeams', [...])
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('teams', [], true)
+ 9 APPPATH\Controllers\BaseController.php(62): view('teams', [...])
+10 APPPATH\Controllers\Teams.php(42): App\Controllers\BaseController->template('teams', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 19:19:20 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: teams]
+in APPPATH\Views\tables\showTeams.php on line 19.
+ 1 APPPATH\Views\tables\showTeams.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\tables\\showTeams.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('tables/showTeams', [], true)
+ 5 APPPATH\Views\teams.php(9): view('tables/showTeams', [...])
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\notes-saas\\app\\Views\\teams.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('teams', [], true)
+ 9 APPPATH\Controllers\BaseController.php(62): view('teams', [...])
+10 APPPATH\Controllers\Teams.php(42): App\Controllers\BaseController->template('teams', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teams->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -31,7 +31,7 @@
 	
 	<h3>HMCTS case management system</h3>
 	 
-	 <button class="btn btn-primary" id="show-tasks" >Add Tasck</button>
+	 <button class="btn btn-primary" id="show-tasks" >Add Task</button>
 	 
 	 <div id="task-display">
 		 <form class="process"  action ="php-api/api/index.php" method="post"   >
