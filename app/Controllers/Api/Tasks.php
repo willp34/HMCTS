@@ -75,6 +75,15 @@ class Tasks extends ResourceController
 		
 	}
 	
+	public function bulkAdd(){
+		
+		$data = $this->request->getJSON(true);
+		
+		
+		return $this->respondCreated( array("messages"=>$data));
+		//echo json_encode(array("messages"=>$data));
+	}
+	
 	public function editTask($taskID)
 	{
 		$data = $this->request->getJSON(true);
@@ -127,6 +136,16 @@ class Tasks extends ResourceController
 		$data = $this->request->getJSON(true);
 		
 		$tasks = $this->newTask->getAllTasks();
+		
+		return $this->respondCreated(['tasks' => $tasks]);
+		
+	}
+	
+	
+	public function upcoming_week(){
+		$data = $this->request->getJSON(true);
+		
+		$tasks = $this->newTask->tasks_upcomingweek();
 		
 		return $this->respondCreated(['tasks' => $tasks]);
 		

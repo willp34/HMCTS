@@ -15,8 +15,14 @@ $routes->get('/bulkAdd', 'Home::bulkAdd');
 $routes->group('api', function($routes){
 	
 	$routes->get('getTasks', 'Api\Tasks::getTasks');
+	$routes->get('upcoming_tasks', 'Api\Tasks::upcoming_week');
 	
 	$routes->post('addTask', 'Api\Tasks::create');
+	
+	
+	// bulk tasks
+	$routes->post('bulkTasks', 'Api\Tasks::bulkAdd');
+	
 	
 	$routes->get('deleteTask/(:num)', 'Api\Tasks::deleteTask/$1');
 	

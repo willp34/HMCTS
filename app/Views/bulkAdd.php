@@ -14,7 +14,7 @@
 	 <div id="dialog" ></div>
 				 
 	 
-	 <form method="post" action="save.php">
+	
 		  <table id="bulk_table" class="table table-striped " style="width:100%">
 			<thead>
 			  <tr>
@@ -29,16 +29,16 @@
 			<tbody>
 					<tr>
 						<td></td>
-						<td><input class="form-control" type="text" name="rows[0]['title']" id= "title" required   ></td>
-						<td><textarea class="form-control" rows="5" name="rows[0]['description']" id="description" required ></textarea></td>
-						<td><select class="form-control" name="status" id="rows[0]['status']">
+						<td><input class="form-control row-title" type="text" class="" required   ></td>
+						<td><textarea class="form-control row-description " rows="5" class="" required ></textarea></td>
+						<td><select class="form-control  row-status" >
 										<option value="To Do" selected>To Do</option>
 										<option  value="In Progress">In progress</option>
 									  </select></td>
 						<td>
 						
 						  <div class="input-group date datepicker">
-											<input type="text" class="form-control" name="rows[0]['completion']" id="completion" placeholder="Date Completion" />
+											<input type="text" class="form-control row-completion"  placeholder="Date Completion" />
 											<span class="input-group-append">
 											  <span class="input-group-text bg-light d-block">
 												<i class="fa fa-calendar"></i>
@@ -49,16 +49,16 @@
 					</tr>
 			</tbody>
 		  </table>
-
+</div>
 			  <br>
 			  <button class="btn btn-primary" type="button" id="addRow">+ Add New Row</button>
 			  <br><br>
-			  <input class="btn btn-primary" type="submit" value="Save Changes">
-			</form>
+			  <input class="btn btn-primary" id="saveChanges" value="Save Changes">
+		
 	 
  	
 	
-	</div>
+	
   </div>
 </div>
 

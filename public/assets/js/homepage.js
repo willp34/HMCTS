@@ -3,10 +3,11 @@ jQuery(document).ready(function () {
 	
 	
 	
-	/*handleAjaxRequest("GET", "index.php/api/upcoming_tasks", null, true, function (response) {
+	handleAjaxRequest("GET", "http://localhost/HMCTS/public/index.php/api/upcoming_tasks", null, true, function (response) {
 		
 		
 		let upcoming_tasks = response.tasks;
+		
 		 if (upcoming_tasks && upcoming_tasks.length > 0) {
 		  let dropdown = `
 			<li class="nav-item dropdown">
@@ -16,6 +17,7 @@ jQuery(document).ready(function () {
 			  <ul class="dropdown-menu">`;
 		  // Add each submenu item from query result
 		  upcoming_tasks.forEach(item => {
+			  
 			dropdown += `<li><a class="dropdown-item" href="#">${item.title}</a></li>`;
 		  });
 
@@ -28,7 +30,6 @@ jQuery(document).ready(function () {
               
         });
 	
-	*/
 	
 	jQuery(function() {
         jQuery('.datepicker').datepicker();
@@ -75,26 +76,26 @@ let newRowIndex = 10000; // Start with high number to avoid ID conflicts
 		const newRow = document.createElement('tr');
 
 		  newRow.innerHTML = `
-			<tr>
+		<tr>
 						<td></td>
-						<td><input class="form-control" type="text" name="rows[new_${newRowIndex}]['title']" id= "title" required   ></td>
-						<td><textarea class="form-control" rows="5" name="rows[new_${newRowIndex}]['description']" id="description" required ></textarea></td>
-						<td><select class="form-control" name="status" id="rows[new_${newRowIndex}]['status']">
+						<td><input class="form-control row-title" type="text" class="" required   ></td>
+						<td><textarea class="form-control row-description " rows="5" class="" required ></textarea></td>
+						<td><select class="form-control  row-status" >
 										<option value="To Do" selected>To Do</option>
 										<option  value="In Progress">In progress</option>
 									  </select></td>
 						<td>
 						
 						  <div class="input-group date datepicker">
-											<input type="text" class="form-control" name="rows[new_${newRowIndex}]['completion']" id="completion" placeholder="Date Completion" />
+											<input type="text" class="form-control row-completion"  placeholder="Date Completion" />
 											<span class="input-group-append">
 											  <span class="input-group-text bg-light d-block">
 												<i class="fa fa-calendar"></i>
 											  </span>
 											</span>
 										  </div></td>
-										  <td><button type="button" class="btn btn-danger removeRow">Remove</button></td>
-					</tr>		  `;
+										  <td><button type="button" class="removeRow">Remove</button></td>
+					</tr>`;
 
 		  tableBody.appendChild(newRow);
 		  newRowIndex++;
@@ -124,7 +125,33 @@ document.addEventListener('click', function (e) {
         jQuery('.modal-body  #status').val("");
 		jQuery('.modal-body  #completion').val("");
  } );
-    // Event delegation for processing user actions
+ 
+ jQuery(document).on("click", "#saveChanges",bulk_action );
+ 
+ function bulk_action(e) {
+    e.preventDefault();
+    
+		alert("bulk    ");
+		  const rows = [];
+		  document.querySelectorAll('#bulk_table tbody tr').forEach(tr => {
+			const title = tr.querySelector('.row-title')?.value.trim();
+			const description = tr.querySelector('.row-description')?.value.trim();
+			const status = tr.querySelector('.row-status')?.value.trim();
+			const date_completed = tr.querySelector('.row-completion')?.value.trim();
+
+			if (title && description && status  && date_completed ) {
+			  rows.push({ title, description, status, date_completed });
+			}
+		  });
+		  
+		  let actionUrl = 'http://localhost/HMCTS/public/index.php/api/bulkTasks';
+		  
+		  let data = JSON.stringify({ rows })
+		handleAjaxRequest("POST", actionUrl, data, false, function (response) {
+		})
+		
+ }
+   
     jQuery(document).on("click", ".taskAction",task_action );
 	
 	function task_action() {
