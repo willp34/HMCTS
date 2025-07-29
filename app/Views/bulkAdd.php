@@ -14,7 +14,7 @@
 	 <div id="dialog" ></div>
 				 
 	 
-	
+	<form id="bulkForm">
 		  <table id="bulk_table" class="table table-striped " style="width:100%">
 			<thead>
 			  <tr>
@@ -29,8 +29,8 @@
 			<tbody>
 					<tr>
 						<td></td>
-						<td><input class="form-control row-title" type="text" class="" required   ></td>
-						<td><textarea class="form-control row-description " rows="5" class="" required ></textarea></td>
+						<td><input class="form-control row-title" type="text"  required   ></td>
+						<td><textarea class="form-control row-description " rows="5"  required ></textarea></td>
 						<td><select class="form-control  row-status" >
 										<option value="To Do" selected>To Do</option>
 										<option  value="In Progress">In progress</option>
@@ -53,9 +53,9 @@
 			  <br>
 			  <button class="btn btn-primary" type="button" id="addRow">+ Add New Row</button>
 			  <br><br>
-			  <input class="btn btn-primary" id="saveChanges" value="Save Changes">
+			  <input class="btn btn-primary"  type="submit" id="saveChanges" value="Save Changes">
 		
-	 
+	 </form>
  	
 	
 	

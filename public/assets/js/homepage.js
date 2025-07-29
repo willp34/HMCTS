@@ -34,7 +34,13 @@ jQuery(document).ready(function () {
 	jQuery(function() {
         jQuery('.datepicker').datepicker();
     });
-    // Initialize DataTable
+	
+	
+	
+	initDatepickers();
+	
+	
+  
     new DataTable("#hmct_data_table", {
         ajax: {
 				url: 'http://localhost/HMCTS/public/index.php/api/getTasks',
@@ -78,8 +84,8 @@ let newRowIndex = 10000; // Start with high number to avoid ID conflicts
 		  newRow.innerHTML = `
 		<tr>
 						<td></td>
-						<td><input class="form-control row-title" type="text" class="" required   ></td>
-						<td><textarea class="form-control row-description " rows="5" class="" required ></textarea></td>
+						<td><input class="form-control row-title" type="text"  required   ></td>
+						<td><textarea class="form-control row-description " rows="5" required ></textarea></td>
 						<td><select class="form-control  row-status" >
 										<option value="To Do" selected>To Do</option>
 										<option  value="In Progress">In progress</option>
@@ -98,6 +104,7 @@ let newRowIndex = 10000; // Start with high number to avoid ID conflicts
 					</tr>`;
 
 		  tableBody.appendChild(newRow);
+		  initDatepickers()
 		  newRowIndex++;
 });
 
@@ -126,29 +133,38 @@ document.addEventListener('click', function (e) {
 		jQuery('.modal-body  #completion').val("");
  } );
  
- jQuery(document).on("click", "#saveChanges",bulk_action );
+ jQuery(document).on("submit", "#bulkForm",bulk_action );
  
  function bulk_action(e) {
     e.preventDefault();
     
-		alert("bulk    ");
+		
+		
 		  const rows = [];
 		  document.querySelectorAll('#bulk_table tbody tr').forEach(tr => {
-			const title = tr.querySelector('.row-title')?.value.trim();
-			const description = tr.querySelector('.row-description')?.value.trim();
-			const status = tr.querySelector('.row-status')?.value.trim();
-			const date_completed = tr.querySelector('.row-completion')?.value.trim();
+				const title = tr.querySelector('.row-title')?.value.trim();
+				const description = tr.querySelector('.row-description')?.value.trim();
+				const status = tr.querySelector('.row-status')?.value.trim();
+				const date_completed = tr.querySelector('.row-completion')?.value.trim();
 
-			if (title && description && status  && date_completed ) {
-			  rows.push({ title, description, status, date_completed });
-			}
+				if (title && description && status  && date_completed ) {
+				  rows.push({ title, description, status, date_completed });
+				}
 		  });
 		  
 		  let actionUrl = 'http://localhost/HMCTS/public/index.php/api/bulkTasks';
 		  
-		  let data = JSON.stringify({ rows })
-		handleAjaxRequest("POST", actionUrl, data, false, function (response) {
-		})
+		
+		 handleAjaxRequest("POST", actionUrl, {rows}, false, function (response) {
+					  const resultsContainer = jQuery(" #dialog");
+					  resultsContainer.html("");
+					  console.log(response);
+					  jQuery.each(response["messages"], function(index, task) {
+							
+						const successContent = `<div class="alert alert-success">${task.message} </div>`;
+						resultsContainer.append(successContent);
+							});
+				})
 		
  }
    
@@ -384,3 +400,11 @@ document.addEventListener('click', function (e) {
         }
     }
 });
+
+  function initDatepickers() {
+		  jQuery('.datepicker').datepicker({
+			format: 'dd/mm/yyyy',
+			autoclose: true,
+			todayHighlight: true
+		  });
+}// Initialize DataTable

@@ -78,9 +78,51 @@ class Tasks extends ResourceController
 	public function bulkAdd(){
 		
 		$data = $this->request->getJSON(true);
+		$taskadded = array();
+		foreach($data["rows"] as $task){
+			$task =(object) $task ;
+			$taskCreated =  date('Y-m-d H:i:s');
+			$title =  $task->title;
+			$description = $task->title;
+			$status =$task->status;
+			// Try converting date format (dd-mm-yyyy or yyyy-mm-dd)
+			$date = DateTime::createFromFormat('m/d/Y', $task->date_completed);
+					
+			
+			$completion_date = $date->format('Y-m-d');
+			
+			$lastTaskID = $this->newTask->insert([
+						
+						"title"  => $title,
+						"description" => $description,
+						"status" => $status,
+						"due" => $completion_date,
+						//"created_at" => $created_at
+					] );
+					
+			if($lastTaskID>0){	
+				http_response_code(201);
+				
+				
+				$taskadded["messages"][]["message"] ="task was created.";
+					/*$taskadded["data"][] = array(
+						"id" => $lastTaskID,
+						"title"  => $title,
+						"description" => $description,
+						"status" => $status,
+						"due" => $completion_date,
+						"created_at" => $taskCreated
+					);*/
+				
+			}else{
+					http_response_code(503);
+					$taskadded["messages"][]["message"] = "Unable to create task.";
+					
+
+				}
+		}
+		return $this->respondCreated( $taskadded);
 		
-		
-		return $this->respondCreated( array("messages"=>$data));
 		//echo json_encode(array("messages"=>$data));
 	}
 	
@@ -88,7 +130,7 @@ class Tasks extends ResourceController
 	{
 		$data = $this->request->getJSON(true);
 	
-		
+	
 		$date = DateTime::createFromFormat('m/d/Y', $data['completion']);
 					
 			
